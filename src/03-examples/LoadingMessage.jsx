@@ -1,7 +1,10 @@
 export const LoadingMessage = () => {
 	return (
 		<>
-			<div className='bg-slate-500 shadow rounded-md p-4 max-w-sm w-full mx-auto h-80'>
+			<div
+				className='bg-slate-500 shadow rounded-md p-4 max-w-sm w-full mx-auto h-80'
+				data-testid='loadin-message'
+			>
 				<div className='animate-pulse flex flex-col items-center gap-4'>
 					<div className='h-6 bg-slate-700 rounded w-1/2'></div>
 

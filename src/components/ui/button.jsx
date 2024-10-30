@@ -1,5 +1,6 @@
 export const Button = ({
 	children,
+	name,
 	onClick,
 	disabled,
 	className,
@@ -9,6 +10,7 @@ export const Button = ({
 	return (
 		<>
 			<button
+				name={name}
 				className={
 					className
 						? className

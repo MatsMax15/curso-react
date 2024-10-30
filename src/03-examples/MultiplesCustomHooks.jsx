@@ -34,11 +34,17 @@ export const MultiplesCustomHooks = () => {
 				)}
 
 				<div className='w-full flex justify-between'>
-					<Button disabled={isDisabled} onClick={() => decrement(1)}>
+					<Button
+						name='back-card'
+						disabled={isDisabled}
+						onClick={() => decrement(1)}
+					>
 						Back
 					</Button>
 
-					<Button onClick={() => increment(1)}>Next</Button>
+					<Button name='next-card' onClick={() => increment(1)}>
+						Next
+					</Button>
 				</div>
 			</div>
 		</>
